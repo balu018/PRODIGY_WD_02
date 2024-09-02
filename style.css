@@ -1,0 +1,43 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+}
+
+#timer {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#controls {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: limegreen;
+    color: black;
+}
+
+#stop {
+    background-color: red;
+    color: white;
+}
+
+#reset {
+    background-color: yellow;
+    color: black;
+}
